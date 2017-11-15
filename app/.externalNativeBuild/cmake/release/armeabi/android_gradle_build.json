@@ -1,0 +1,97 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/dengkewu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avcodec-56",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libavcodec-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avdevice-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avdevice-56",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libavdevice-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avfilter-5-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avfilter-5",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libavfilter-5.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avformat-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avformat-56",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libavformat-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avutil-54-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avutil-54",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libavutil-54.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/dengkewu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dengkewu/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"swresample-1-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swresample-1",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libswresample-1.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"swscale-3-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swscale-3",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libswscale-3.so",
+			"toolchain" : "4320721777110476310"
+		}
+	},
+	"toolchains" : 
+	{
+		"4320721777110476310" : 
+		{
+			"cCompilerExecutable" : "/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

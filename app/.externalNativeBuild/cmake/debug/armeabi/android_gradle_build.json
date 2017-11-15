@@ -1,0 +1,97 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/dengkewu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-56-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avcodec-56",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libavcodec-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avdevice-56-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avdevice-56",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libavdevice-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avfilter-5-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avfilter-5",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libavfilter-5.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avformat-56-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avformat-56",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libavformat-56.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"avutil-54-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avutil-54",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libavutil-54.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/dengkewu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/debug/armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dengkewu/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/dengkewu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/Users/dengkewu/AndroidStudioProjects/helloffmpeg/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"swresample-1-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swresample-1",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libswresample-1.so",
+			"toolchain" : "4320721777110476310"
+		},
+		"swscale-3-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swscale-3",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libswscale-3.so",
+			"toolchain" : "4320721777110476310"
+		}
+	},
+	"toolchains" : 
+	{
+		"4320721777110476310" : 
+		{
+			"cCompilerExecutable" : "/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/dengkewu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
